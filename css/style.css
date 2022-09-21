@@ -24,6 +24,7 @@ header{
 .articolo{
     text-decoration: none;
     color: inherit;
+    font-weight: bold;
 }
 /* HEADER */
 
@@ -58,7 +59,7 @@ ul{
 }
 .logo{
     height: 30px;
-    padding-right: 80px ;
+    padding-right: 100px ;
 }
 .logo img{
     height: 100%;
@@ -69,6 +70,10 @@ div i{
 
 /* MAIN */
 
+.row{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 .col{
     width: calc(100%/3 - 20px);
     margin: 100px 10px 10px 10px;
