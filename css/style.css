@@ -1,0 +1,15 @@
+/* RESET */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* COMMON */
+
+.container{
+    max-width: 1400px;
+}
+
+/* TIPOGRAFY */
+
