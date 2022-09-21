@@ -15,8 +15,19 @@
 .row{
     justify-content: space-between;
 }
-ul{
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
     padding-left: 0;
+}
+ ul li {
+    margin: 0 5px 0 0;
+}
+li a {
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
 }
 /* TIPOGRAFY */
 
@@ -32,7 +43,7 @@ h5{
 header{
     color: white;
 }
-.articolo{
+.articolo,.brand{
     text-decoration: none;
     color: inherit;
     font-weight: bold;
@@ -52,22 +63,12 @@ header{
    top: 0;
    z-index: 999;
 }
-.main-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
 .main-nav ul li {
     margin: 0 10px;
 }
-li a {
-    text-decoration: none;
-    color: inherit;
-    font-family: inherit;
-}
 .logo{
     height: 30px;
-    padding-right: 100px ;
+    padding-right: 130px ;
 }
 .logo img{
     height: 100%;
@@ -145,19 +146,6 @@ footer {
     background-color: black;
     color: white;
     margin-top: 50px;
-}
- ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
- ul li {
-    margin: 0 5px 0 0;
-}
-li a {
-    text-decoration: none;
-    color: inherit;
-    font-family: inherit;
 }
 .info-azienda,.social{
     padding:30px 0 30px 10px;
