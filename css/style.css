@@ -9,7 +9,57 @@
 
 .container{
     max-width: 1400px;
+    margin:auto;
 }
 
 /* TIPOGRAFY */
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    color: white;
+}
+
+/* HEADER */
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+   background-color: #FF6900;
+   padding: 20px;
+   position: fixed;
+   left: 0;
+   right: 0;
+   top: 0;
+   z-index: 999;
+}
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.main-nav ul li {
+    margin: 0 10px;
+}
+li a {
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+}
+ul{
+    padding-left: 0;
+}
+.logo{
+    height: 30px;
+    padding-right: 80px ;
+}
+.logo img{
+    height: 100%;
+}
+div i{
+    padding: 0 5px;
+}
