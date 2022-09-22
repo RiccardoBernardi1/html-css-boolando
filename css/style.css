@@ -10,21 +10,20 @@
 .container{
     max-width: 1400px;
     margin:auto;
-    display: flex;
 }
 .row{
-    justify-content: space-between;
+    display: flex;;
 }
-ul {
+.list-inline {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     padding-left: 0;
 }
-ul li {
+.list-inline  li {
     margin: 0 5px 0 0;
 }
-li a {
+.list-inline li a {
     text-decoration: none;
     color: inherit;
     font-family: inherit;
@@ -54,7 +53,6 @@ header{
 
 header .container{
     align-items: center;
-    justify-content: space-between;
 }
 header{
    background-color: #FF6900;
@@ -64,13 +62,23 @@ header{
    right: 0;
    top: 0;
    z-index: 999;
+   box-shadow: 0 4px 2px -2px gray;
+}
+.icons .list-inline {
+    justify-content: flex-end;
+}
+.icons,.main-nav{
+    min-width: 20%;
+}
+.logo{
+    min-width: 60%;
 }
 .main-nav ul li {
     margin: 0 10px;
 }
 .logo{
     height: 30px;
-    padding-right: 130px ;
+    text-align: center;
 }
 .logo img{
     height: 100%;
@@ -158,6 +166,9 @@ footer {
     background-color: black;
     color: white;
     margin-top: 50px;
+}
+footer .row{
+    justify-content: space-between;
 }
 .info-azienda,.social{
     padding:30px 0 30px 10px;
